@@ -273,7 +273,13 @@ header {
 }
 
 @media (max-width:478px) {
-
+    .welcome{
+        height: 90vh;
+    }
+    .welcome,.welcome__container{
+        margin-bottom: 0;
+    }
+   
     .welcome__logo {
         display: none;
     }
@@ -402,13 +408,12 @@ header {
     padding: 15px 30px;
     width: 220px;
     color: black;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 700;
     background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    text-transform: uppercase;
     box-shadow: 5px 5px 20px #888;
     border-radius: 10px;
 }
@@ -474,7 +479,8 @@ header {
 
 @media (max-width:478px) {
     .projects {
-        margin-top: 70px;
+        margin-top: 0;
+        padding: 10px;
     }
 
     .projects__image {
@@ -546,6 +552,7 @@ header {
 @media (max-width:992px) {
     .contact {
         padding-bottom: 100px;
+        height: auto;
     }
 
     .contact__links {
