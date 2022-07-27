@@ -358,17 +358,17 @@ header {
 }
 
 .projects__image_tribute-page:hover {
-    background: url(/img/tribute-page.png) no-repeat;
+    background: url(img/tribute-page.png) no-repeat;
     background-size: 300px 215px;
 }
 
 .projects__image_locus:hover {
-    background: url(/img/locus.png) no-repeat;
+    background: url(img/locus.png) no-repeat;
     background-size: 300px 215px;
 }
 
 .projects__image_landing-page:hover {
-    background: url(/img/landing-page.png) no-repeat;
+    background: url(img/landing-page.png) no-repeat;
     background-size: 300px 215px;
     background-clip: padding-box;
 }
